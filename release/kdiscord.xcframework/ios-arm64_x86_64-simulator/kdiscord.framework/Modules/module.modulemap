@@ -1,0 +1,5 @@
+framework module "kdiscord" {
+    umbrella header "kdiscord.h"
+    export *
+    module * { export * }
+}
